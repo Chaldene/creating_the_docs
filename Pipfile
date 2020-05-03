@@ -11,6 +11,9 @@ tox = "*"
 coverage = "*"
 Sphinx = "*"
 twine = "*"
+yapf = "*"
+sphinx-rtd-theme = "*"
 
 [packages]
-creating_the_docs = {path = ".", editable = true}
+creating_the_docs = {path = ".",editable = true}
+

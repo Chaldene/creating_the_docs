@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\barry\\.virtualenvs\\gen_python-nedh72ZG\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\barry\\.virtualenvs\\gen_python-nedh72ZG\\Scripts\\python.exe",
+    "restructuredtext.confPath": "${workspaceFolder}\\docs",
+    "python.formatting.provider": "yapf"
 }

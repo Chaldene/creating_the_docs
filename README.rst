@@ -18,6 +18,27 @@ Creating the Docs
 
 An attempts to build an example repo with sphinx built-in
 
+The folder was built using my local cookiecutter use of pipenv.
+First activate my general python virtualenv
+
+Then use the command:
+
+.. code:: console
+
+   > cookiecutter templatedir -o outputdir
+
+This creates the template directory completed by the wizard.
+
+To compile the docs, again ensure the environment with sphinx is activated then run
+
+.. code:: python
+
+   sphinx-build -b sphinx-build -b html sourcedir builddir
+
+For the nice readthedocs template
+Template: https://github.com/readthedocs/sphinx_rtd_theme
+                
+
 
 * Free software: BSD license
 * Documentation: https://creating-the-docs.readthedocs.io.
